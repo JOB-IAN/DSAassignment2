@@ -16,7 +16,6 @@ int main(){
 	cout << "Enter the letter grade, \n The EOF character to end input\n";
 	while( cin >> grade ){
 		grade = tolower(grade);
-		cout << "Enter the letter grade, \n The EOF character to end input\n";
 		
 		if(grade == 'a'){
 			aCount++;
